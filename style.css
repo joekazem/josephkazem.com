@@ -1,0 +1,120 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+.header {
+    margin-bottom: 15px;
+    background-color: #A2D6F9;
+    background-size: cover;
+    border: 10px;
+    border-color: aquamarine;
+    
+}
+.image {
+   display: block;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    
+}
+.text-box {
+    position: absolute;
+    top: 45px;
+    
+    left: 325px;
+    color: #04395E;
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 12px;
+    text-shadow: 14px;
+    
+    
+}
+
+.tabs li {
+    float: left;
+    position: relative;
+   list-style: none;
+}
+.tabs button {
+    float: left;
+    padding: 10px 70px;
+    text-decoration: none;
+    
+    -webkit-border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 5px; 
+
+}
+.tabs .active button {
+z-index: 3;
+}
+.photo {
+    background-color: #8FE388 ;
+}
+.active, .about {
+    background-color: #4F86C6;
+}
+.port {
+    background-color: #F3E37C;
+}
+.resume {
+    background-color: #e4dad5;
+}
+.contact {
+    background-color: #BDB246;
+}
+.git {
+    background-color: #E07A5F;
+}
+
+/*.hidden {
+display: none;
+}*/
+body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    min-height: 100%;
+
+    
+}
+body .container {
+    display: flex;
+    flex-direction: column;
+    
+    }   
+body .tabContentOne {
+    background-color: #4F86C6;
+    height: 100%;
+    flex: 1;
+}
+/*body .tabContenttwo {
+    background-color: #8FE388;
+    height: 100%;
+    flex: 1;
+}*/
+#tabInformationContainer {
+    min-height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photoTab {
+    image-rendering: auto;
+}
+h1 {
+    text-decoration: underline;
+}
+footer {
+position: absolute;
+    bottom: 0;
+    width: 644px;
+    height: 20px;
+    margin: 0 auto;
+}
