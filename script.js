@@ -6,7 +6,7 @@ function switchtab(tab) {
          informationcontainer.className = "";
          informationcontainer.classList.add("container", "about");
          tabinformation.innerHTML = `
-<h4>I am an aviation professional with a vast experience commerical aviation and aircraft maintenance. 
+<h4>vgygtvyhjvgyvyhjvgyhjvyhjvghghvhgvghkjvgyjkvgh
 .</h4>
 `
          break
